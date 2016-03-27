@@ -106,8 +106,8 @@ cpdefine("inline:com-chilipeppr-widget-autolevel", ["chilipeppr_ready", "ThreeHe
 
   return {
     id: "com-chilipeppr-widget-autolevel",
-    url: "http://jsfiddle.net/forstuvning/3gmfmnna/6/show/light/",
-    fiddleurl: "http://jsfiddle.net/forstuvning/3gmfmnna/6/",
+    url: "(auto fill by runme.js)",
+    fiddleurl: "(auto fill by runme.js)",
     name: "Widget / Auto-Level",
     desc: "Allows you to auto-level your PCB before milling. Most raw PCB boards have a slight warpage. This widget lets you probe the warpage and then it auto-scales your Gcode to match the warpage so you get very clean/predictable z-positions in your milling job.",
     publish: {},
