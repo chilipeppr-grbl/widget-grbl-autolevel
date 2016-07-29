@@ -99,9 +99,11 @@ cprequire_test(["inline:com-chilipeppr-widget-autolevel"], function (autolevel) 
 cpdefine("inline:com-chilipeppr-widget-autolevel", ["chilipeppr_ready", "ThreeHelvetiker", "Three"], function () {
     
     return {
-        id: "com-chilipeppr-widget-autolevel",
-        url: "http://jsfiddle.net/Tegeon/p7syve9q/7/show/light/",
-        fiddleurl: "http://jsfiddle.net/Tegeon/p7syve9q/7/",
+        id: "com-chilipeppr-elem-zipwhip",
+        url: "(auto fill by runme.js)",       // The final URL of the working widget as a single HTML file with CSS and Javascript inlined. You can let runme.js auto fill this if you are using Cloud9.
+        fiddleurl: "(auto fill by runme.js)", // The edit URL. This can be auto-filled by runme.js in Cloud9 if you'd like, or just define it on your own to help people know where they can edit/fork your widget
+        githuburl: "(auto fill by runme.js)", // The backing github repo
+        testurl: "(auto fill by runme.js)",   // The standalone working widget so can view it working by itself
         name: "Widget / Auto-Level",
         desc: "Allows you to auto-level your PCB before milling. Most raw PCB boards have a slight warpage. This widget lets you probe the warpage and then it auto-scales your Gcode to match the warpage so you get very clean/predictable z-positions in your milling job.",
         publish: {
