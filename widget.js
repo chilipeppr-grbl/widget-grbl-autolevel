@@ -1,6 +1,7 @@
 requirejs.config({
     paths: {
-        Three: '//i2dcui.appspot.com/geturl?url=http://threejs.org/build/three.js',
+//         Three: '//i2dcui.appspot.com/geturl?url=http://threejs.org/build/three.js',
+        Three: 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r76/three',
         ThreeTextGeometry: '//i2dcui.appspot.com/js/three/TextGeometry',
         ThreeFontUtils: '//i2dcui.appspot.com/js/three/FontUtils',
         ThreeHelvetiker: '//i2dcui.appspot.com/js/three/threehelvetiker'
